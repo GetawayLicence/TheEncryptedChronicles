@@ -24,12 +24,12 @@ But chaos is never a tangle of indecipherable runes. More often than not, it’s
 # The Attack: An Anatomy 
 The WannaCry malware mainly exploited systems using Microsoft Windows that were in need of an update soon. The malware was not particularly stealthy-- it barged through the front door of systems via a vulnerability in the Microsoft Server Message Block 1.0 (SMBv1) protocol. With the use of specially crafted packets known as EternalBlue, the SMB vulnerability could be tricked into executing arbitrary code in affected systems. The EternalBlue packets, developed by the United States National Security Agency, were effective only in systems that ran on older versions of Microsoft Windows.  
 
-![WannaCry Timeline]({{ '/assets/img/WannaCry/Timeline.png' | relative_url }})
+![WannaCry Timeline](../assets/img/WannaCry/Timeline.png)
 *Figure 1: Timeline of events*
 
 Here, the timeline pieces everything together. The United States National Security Agency had previous knowledge of the EternalBlue vulnerability, but had not disclosed it to Microsoft or the public for several years. However, this information was stolen and leaked by a group that called themselves 'The Shadow Brokers'. In response, in early 2017 at around March, Microsoft Windows had sent out a security patch, MS17-010, to address the vulnerability. However, several devices remained unpatched, leaving the vulnerability exposed and inviting. In May 2017, the infamous WannaCry attack was then believed to have been launched by the North Korean cybercriminal group 'The Lazarus Group', affecting several devices and business operations globally. 
 
-![WannaCry Timeline]({{ '/assets/img/WannaCry/wannacry_screen.png' | relative_url }})
+![WannaCry Timeline](../assets/img/WannaCry/wannacry_screen.png)
 *Figure 2: WannaCry ransom note screenshot*
 
 The WannaCry ransomware spread as a worm, self-propagating rapidly across every other device that communicated with a compromised device. The ransomware, when having successfully infected a device, appeared as a self-contained program containing several files, including:
@@ -43,7 +43,7 @@ A few hours after the attack, a security blogger discovered a security stall to 
 
 ##MITRE ATT&CK FRAMEWORK: Tactics, Techniques & Procedures
 
-![WannaCry MITRE Table]({{ '/assets/img/WannaCry/WannaCry_MITRE.png' | relative_url }})
+![WannaCry MITRE Table](../assets/img/WannaCry/WannaCry_MITRE.png)
 *Figure 3: MITRE ATT&CK - WannaCry*
 ---
 <style>
@@ -182,7 +182,7 @@ We now map the WannaCry ransomware attack to the STRIDE framework, which is a mo
 
 To visualise this, we score the extent to which each component in STRIDE played a part in the threat types imposed by the WannaCry ransomware, on a scale of 1 - 5. For a statistical representation of the scoring of each STRIDE component, we arrive at the following diagram: 
 
-![WannaCry STRIDE Radar]({{ '/assets/img/WannaCry/WannaCry_Radar.png' | relative_url }})
+![WannaCry STRIDE Radar](../assets/img/WannaCry/WannaCry_Radar.png)
 *STRIDE Framework: Radar Chart*
 
 # Indicators of Compromise
