@@ -36,7 +36,7 @@ Social Engineering Attack - Format:
 As QR codes are visual, they require human interaction to be exploited and thus evade automated system checks as spam or harmful content. Moreover, attackers also conceal their tracks and ensure users are more likely to click on the URL hidden in the malicious QR codes by shortening their URLs or deploying dynamic QR codes that change over time, which further increases the difficulty to trace these attacks back to them.  
 
 Diamond Model:
-![QRishing Diamond Model](../assets/img/QRishing/DiamondModel.png)
+![QRishing Diamond Model](/assets/img/QRishing/DiamondModel.png)
 *Figure 1- Diamond Model Framework*
 
 - Adversary: Threat actors using social engineering to harvest credentials or deliver malware. 
