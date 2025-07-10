@@ -36,7 +36,7 @@ Social Engineering Attack - Format:
 As QR codes are visual, they require human interaction to be exploited and thus evade automated system checks as spam or harmful content. Moreover, attackers also conceal their tracks and ensure users are more likely to click on the URL hidden in the malicious QR codes by shortening their URLs or deploying dynamic QR codes that change over time, which further increases the difficulty to trace these attacks back to them.  
 
 Diamond Model:
-![QRishing Diamond Model](/assets/img/QRishing/DiamondModel.png)
+![QRishing Diamond Model]({{ '/assets/img/QRishing/DiamondModel.png' | relative_url }})
 *Figure 1- Diamond Model Framework*
 
 - Adversary: Threat actors using social engineering to harvest credentials or deliver malware. 
@@ -76,7 +76,7 @@ We now map the QRishing attack to the STRIDE framework, which is a model that ca
 
 To visualise this, we score the extent to which each component in STRIDE played a part in the threat types imposed by the QRishing attack, on a scale of 1 - 5. For a statistical representation of the scoring of each STRIDE component, we arrive at the following diagram: 
 
-![QRishing STRIDE Radar](/assets/img/QRishing/QRishing%20Radar.png)
+![QRishing STRIDE Radar]({{ '/assets/img/QRishing/QRishing_Radar.png' | relative_url }})
 *Figure 2- STRIDE Framework Radar Chart*
 
 # Impacts and Consequences
